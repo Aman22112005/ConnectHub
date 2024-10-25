@@ -1,10 +1,8 @@
-JitsiMeetJS.init();
 
-const domain = 'meet.jit.si';
-const options = {
-    roomName: 'connecthub',
-    width: 700,
-    height: 700,
-    parentNode: document.querySelector('#meet'),
-};
-const api = new JitsiMeetExternalAPI(domain, options);
+
+window.onload = () => {
+  const api = new JitsiMeetExternalAPI("8x8.vc", {
+    roomName: "vpaas-magic-cookie-c640fad4da144fa1807b4b11559f1e5e/SampleAppGrossSuspicionsRequireNonetheless",
+    parentNode: document.querySelector('#jaas-container'),});
+    console.log("hi")
+}
