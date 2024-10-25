@@ -47,8 +47,9 @@ button {
   cursor: pointer;
 }
 
-html, body, #jaas-container { 
-  height: 100%; 
+#jaas-container { 
+  height: 80vh;
+  border: 3px solid red;
 }
 
 button:hover {
